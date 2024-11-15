@@ -1,0 +1,537 @@
+Lost Labyrinth FAQ
+
+Was machen die Spezialfelder?
+Wofür sind unsere Attribute?
+Wie funktioniert das Kampfsystem?
+Wie funktioniert Magie?
+Wie viel Schaden machen die Angriffszauber?
+Was machen die Flüche?
+Wie funktioniert schleichen?
+Was macht auto-toggle?
+Wie erziele ich Punkte für den Highscore?
+Fullscreen/Windowed Mode?
+Welche Monsterzauber gibt es?
+Welche Fähigkeiten haben die Monster?
+Welche Räume existieren im Labyrinth?
+Welche Spezial-Level existieren im Labyrinth?
+Was ist der Unterschied zwischen normalen, alten und uralten Stäben?
+Wofür ist Wissen gut?
+Wie funktionieren Fernkampfwaffen?
+Welche Kampfstile gibt es?
+Warum kann man gestohlene Gegenstände nicht zurückbekommen? 
+Kann man neue Fähigkeiten im Spiel bekommen?
+Wofür sind die Stabteile?
+Lost Labyrinth kompilieren?
+Lost Labyrinth in anderer Programmiersprache neu schreiben?
+Welche Unterschiede gibt es zwischen der klassischen und der neuen Version?
+
+
+Was machen die Spezialfelder?
+Das Sanktum regeneriert deine Lebenspunkte.
+Es hat 3 ladungen.
+Wenn du akolyth bist heilt es ausserdem gift, bricht flüche und lädt 
+dein Mana auf (aktive Zauber werden dann beendet).
+Wenn auto-toggle ausgeschaltet ist müssen wir Space drücken um es zu benutzen.
+
+Das Pentagramm regeneriert dein Mana.
+Es hat 3 Ladungen.
+Es beendet alle aktiven zauber wenn du es benutzt.
+Wenn auto-toggle ausgeschaltet ist müssen wir Space drücken um es zu benutzen.
+
+Ausgang
+Dieses Feld führt zum nächsten Level.
+Das ist was wir in jeder Ebene finden müssen.
+Wenn auto-toggle ausgeschaltet ist müssen wir Space drücken um es zu benutzen.
+
+Treppe
+Dieses Feld führt einen Level nach oben.
+Wenn auto-toggle ausgeschaltet ist müssen wir Space drücken um es zu benutzen.
+
+Teleporter Türen
+Diese Felder führen auch in den nächsten Level.
+Es handelt sich dann um einen Spezial-Level.
+Von wie es aussieht können wir sehen in welchen Level es führt.
+
+Vergrabener Schatz
+Wenn du die Schaufel auf dieses Feld benutzt wirst du einen Schatz finden.
+Es kanna les sein von Waffen, Rüstung, Gold zu magischen Gegenständen.
+
+Steinblock
+Wenn du die Spitzhacke auf dieses Feld benutzt wird es zerstört und gibt einen Durchgang frei.
+Manchmal findest du zusätzlich etwas in den Steinen.
+
+Raum
+Dies ist ein raum. Es gibt eine menge verschiedene Räume.
+Die meisten sind nützlich aber es gibt auch ein paar gefährliche.
+
+Vergrabener Schatz
+Wenn du die Schaufel auf dieses Feld benutzt wirst du einen Schatz finden.
+Es kanna les sein von Waffen, Rüstung, Gold zu magischen Gegenständen.
+
+Schacht
+Führt in den nächsten Level aber du kannst ihn nur mit einem Seil benutzen.
+Oder du hast die Fähigkeit Klettern odern den Zauberspruch Federfall.
+
+Knochen
+Der schwarze Magier benötigt Knochen für viele seienr Zauber. Es gibt 9 verschiedene
+Knochen, aber sie funktionieren alle gleich.
+Manchmal wachen Untote auf wenn du darüber läufst.
+
+Altar
+Hier kannst du Gegenstände den Göttern opfern. Aber sie sind wählerisch was sie 
+akzeptieren. Prinzipiell kann man sagen das alles Wertvolle akzeptiert wird.
+Wenn angenommen werden wir mit einem Erfahrungsgewinn belohnt.
+
+Rote Rune
+Diese Rune zerstört alle beschworenen Kreaturen die über sie laufen.
+
+Gelbe Rune
+Diese Rune verletzt alle beschworenen Kreaturen die über sie laufen.
+
+Grüne Rune
+Diese Rune verhindert das beschworenen Kreaturen sie passieren.
+
+Wasser
+Hier bekommst du 10 Durstpunkte zurück.
+Wenn auto-toggle ausgeschaltet ist müssen wir Space drücken um es zu benutzen.
+
+
+Wofür sind unsere Attribute?
+Angriff - Das brauchen wir um unsere Feinde im Kampf zu treffen.
+   Es zählt für Nah und Fernkampf aber nicht für Zauber.
+Geschicklichkeit - Das brauchen wir um nicht von Feinden getroffen zu werden und um
+   Fallen auszuweichen. Kann nie höher als 15 sein.
+Stärke - Den Schaden den wir im Nahkampf anrichten hängt hauptsächlich davon ab und davon
+   welche Waffe wir benutzen. Kann nie höher als 15 sein.
+Lebenspunkte - Wir haben einen aktuellen und einen maximalen Wert. Wenn der aktuelle 
+   Wert auf 0 geht sind wir tot. Wenn wir das Sanktum betreten werden unsere Lebenspunkte auf 
+   den Maximalwert aufgefüllt. Kann nie höher als 150 sein.
+Geschwindigkeit - Jede Runde haben wir so viele Schritte. Wenn unsere Runde endet
+   greifen die Monster an und Gift macht Schaden. Ein neues Monster betritt das
+   Labyrinth irgendwo. Kann nie höher sein als 25.
+Wahrnehmung - Damit finden wir Fallen, Geheimtüren und versteckte Schätze.
+   Kann nie höher als 15 sein.
+Glück - Hilft beim Fallen, Geheimtüren und Schätze finden. Hilft kritische Treffer anzurichten.
+   Modifiziert die Anzahl Gold die wir finden. Kann nie höher als 15 sein.
+Mana - Wir brauchen diese Magie um zu zaubern. Jeder Spruch kostet Mana.
+   Das Pentagramm (Nexus) läft unser Mana auf unser Maximum auf Kann nie höher als 150 sein.
+Zauberkraft - Dieser Wert sagt aus wie stark unsere Sprüche sind. z.B. macht ein Funke
+   mind. 1*Spellpower bis  max. 2*Spellpower Schaden. Kann nie höher als 15 sein.
+Zirkel - Die Anzahl der Sprüche die wir kennen hängt von diesem Wert ab.
+   Schau dir die liesmich_zauber.txt Datei an um genau zu wissen welche Sprüche man in
+   welcher Magierform pro Zirkel lernt. Es gibt Sprüche bis Level 15.
+
+
+Wie funktioniert das Kampfsystem?
+Die Chance einen Gegner zu treffen ist:
+  20% + Dein Angriffswert * 10 + Angriffswert der Waffe * 10 + magische Gegenstände und Zauber
+  minus Verteidigungswert des Monsters * 10
+
+
+Wieviel Schaden richte ich an?
+Du macht Schaden zwischen einem Minimal und einem Maximalwert,
+diese werden so berechnet:
+   Minimum: Deine Stärke/2 + Min. Wert der Waffe
+	    + Zauber (z.B. Stärke) und magische Gegenstände
+   Maximum: Deine Stäre + Max. Wert der Waffe
+	    + Zauber (z.B. Stärke) und magische Gegenstände
+Wenn du unbewaffnet kämpfst, und du nicht waffenloser Kampf gewählt hast, wird
+all dieser Schaden halbiert.
+Manchmal kann der Wert 0 betragen. Das heißt dann du hast deinen gegner zwar getroffen
+aber du konntest seine Rüstung nicht durchdringen.
+
+Es gibt außerdem die Chance einen kritischen treffen anzurichten.
+Dies vernichtet ein Monster sofort.
+Die Chance dafür wird so berechnet:
+(Deine Geschicklichkeit + Dein Glück) * 2 + kritischer Angriff der Waffe.
+Das Maximum das man haben kann ist 30%. Mit Assassine ist es 45%.
+
+Rüstung funktioniert so:
+Alle monster haben einen Rüstungs Wert. z.B. hat der Hobgoblin 6.
+Das heißt jedesmal wenn wir treffen wird eine zufällige Zahl zwischen 0 und 6
+von unseren Schadenspunkten abgezogen.
+Wenn Punkte übrig bleiben werden dieser von seinen Lebenspunkten abgezogen.
+Spielerrüstung (der Wert aus allen Rüstungsteilen die wir tragen zusammengezählt)
+gibt uns ebenfalls einen Minimum und Maximum Wert. Diesen können wir 
+im Character Infoschirm sehen. Wenn ein Gegner uns trifft und wir z.B. einen Schutz
+von 4-6 haben. Wird vom Schaden eine Zahl zwischen 4-6 Punkten abgezogen. Wenn
+Punkte übrig bleiben werden diese von unseren Lebenspunkten abgezogen.
+
+
+Wie funktioniert Magie?
+Welche Sprüche habe ich?
+Das hängt von zwei Dingen ab: Den Zauberschulen die du gewählt hast
+und deinem Wert in Zirkel.
+Jeder hat Basismagie (wenn du nicht "Keine Basismagie gewählt hast)
+und eine Anzahl an Zauberschulen.
+Jede Schule gibt dir bis zu 15 Zauber. Maximal einen pro Zirkel.
+d.h. wenn du z.B. Wassermagie und Schwarze Magie gewählt hast
+und dein Zirkel Wert ist auf fünf, dann hast du alle Zauber
+in Basismagie, Schwarzer Magie und Wassermagie bis zu
+Level fünf.
+
+Wie hoch ist die Chance das ein Spruch klappt?
+Normalerweise klappen alle Sprüche mit 50% Chance.
+Jedesmal wenn ein Spruch klappt oder missling erhöht sich diese
+Chance um 5% bis zu einem Maximalwert von 100%.
+Die wirkliche Chance um einen Spruch zu zaubern kann nie über 99%
+steigen. Es gibt also immer eine kleine Restchance das ein Zauber 
+nicht klappt.
+Wenn du Zauberkunst gewählt hast ist die Chance immer genau 99%
+
+Wann botche ich mit einem Zauber?
+Ein Botch ist ein magischer Unfall der dem Magier Schaden macht
+statt zu funktionieren.
+Die Chance berechnet sich so:
+Zufallszahl(0-149) < 16-Glück
+Wenn ein Sprucht botcht macht er diesen Schaden:
+Zufallszahl(0-Level des Spruchs) + Des Magiers Zauberkraft / 2
+      
+Wann habe ich einen Spezialerfolg?
+Ein Spezialerfolg bedeutet für Sprüche die eine Dauer haben das diese
+doppelt so lange ist. Bei Schaden und dergleichen richtet der Spruch
+das Doppelte an.
+Die Chance berechnet sich so: Zufallszahl(0-199) <= 5+Glück
+
+
+
+Wie viel Schaden machen die Angriffszauber?
+Name Kosten Min.Schaden Max.Schaden (Zauberkraft ist x)
+Wirbelwind:    1  x  x + 2 
+Hurricane:     1  x  x * 2 
+Funke:         1  x  x * 2 
+Feuerschlag:      2  x * 2 x * 3 
+Feuerlanze:    2  x + 1 x * 3 (Auf jedes Feld in einer Reihe!)
+Flammenmeer:      3  x  2 * x (Alls Felder auf dem Schirm!)
+Feuerball:     3  x * 2 x * 3 (Auf 9 Felder!)
+Drachenfeuer:     3  x * 3 x * 4 
+Desintegration:      10 x * 5 x * 6 (Zerstört auch Gegenstände und Fallen)
+Armageddon:    10 x * 2 x * 3    (Auf alle Monster in der Ebene!)
+Pest:       10 x * 2 x * 3    (Auf alle nicht untoten Monster in der Ebene!!)
+Drain Life:    3  x  x * 2 (Du bekommst diese Punkte!)
+Meteor:        4  x * 2 x * 3 (Auf 9 Felder!)
+Mentalschlag:     2  x  x * 2 + 1   
+Vortex:        3  x * 2 x * 3 
+Blitzschlag:      2  x  x * 3 
+Frostschlag:      2  x * 2 x * 3 
+Dehydration:      2  x * 2 x * 3 
+Arcaner Schlag:      2  x + 2 x * 2 + 2   
+Sternenfeuer:     4  x  x * 3    (Alle Felder auf dem Schirm!)
+Mystische Attacke 1 l.p.   x * 3 + 5   x * 5 + 10  (Kostet einen Lebenspunkt und trifft mit 100%)
+      
+      
+
+Was machen die Flüche?
+Der namenlose Fluch - (Kein Erfahrungsgewinn)
+Fluch der Tiamat - (Einen Punkt Schaden pro Runde)
+Fluch der Hekate - (Deine Macht ist 1)
+Fluch des Ares - (Dein Angriff ist 1)
+Fluch der Paralysis - (Deine Bewegung 1)
+Fluch des Artemis - (Deine Geschicklichkeit ist 1)
+Fluch des Achilles - (Monster machen doppelten Schaden)
+Fluch der Blindheit - (Siichtweite ist 1)
+Fluch des Hephaistos - (Rüstung ist nutzlos)
+Fluch des Hades - (Alle Skelette wachen auf)
+Fluch des Seth - (Du kannst den Nexus nicht benutzen)
+Fluch des Apophis - (Gift hält endlos))
+Fluch der Dagda - (Du verhungerst doppelt so schnell)
+Fluch der Naiaden - (Du verdurstest doppelt so schnell)
+Fluch des Osiris - (Du kannst das Sanktum nicht benutzen)
+Fluch des Leprechaun - (Du kannst kein Gold aufnehmen)
+Fluch des Marduk - (Doppelt so viele Hinterhalte)
+Fluch der Astarte - (Alle Truhen sind leer) 
+Fluch des Poseidon - (Doppelten Schaden vom Ertrinken)
+Fluch der Tanis - (Dauer aller Sprüche halbiert)
+Fluch der Athene - (Monster treffen dich besser im Nahkampf)
+Fluch der Morrigu - (Monster treffen dich besser im Fernkampf)
+Hühnerfluch - (Sehr schlechte Attribute)
+Fluch des Magneto - (Gewicht zählt doppelt)
+Fluch der Gaia - (Waffen und Rüstungen brechen doppelt so oft)
+Fluch des Nosferatu - (Händler und Lehrer flüchten vor dir)
+
+
+Wie funktioniert schleichen?
+Mit schleichen kommst du an Monstern vorbei ohne sie zu bekämpfen.
+Die Chance dafür ist:
+Mit der Fähigkeit Schleichen:
+Glück * 5% + Geschicklichkeit * 10% + 25%
+Ohne Schleichen Fähigkeit:
+Glück + 5% + Geschicklichkeit * 5%
+In Fledermaus, Katzen und Vogelform hast du 70%.
+Unsichtbarkeit gibt dir nochmal + 40%.
+Das Ganze minus die Aufmerksamkeit des Monsters.
+Maximujm ist 80%.
+Zusätzlich bemerken dich einige Monster nicht wenn du schleichen
+eingeschaltet hast und greifen dann nicht an.
+Die Chance dafür ist:
+Mit der Fähigkeit Schleichen:
+(Glück + Geschicklichkeit) * 2%
+Ohne Schleichen Fähigkeit:
+Glück + Geschicklichkeit
+
+
+Was macht auto-toggle?
+Normalerweise ist dieser Modus ausgeschaltet.
+Das heißt wir müssen Space drücken um Gegenstände aufzuheben, den Altar, die Treppe und ähnliches zu
+benutzen.
+In den optionen können wir ihn einschalten was heißt das alle Gegenstände automatisch aufgenommen 
+werden und Treppen etc. auch automatisch benutzt werden.
+
+
+Wie erziele ich Punkte für den Highscore?
+Jede Ebene gibt 10 Punkte.
+Gold / 10 (niemals mehr als durch Ebenen)
+Getötete Monster / 5 (niemals mehr als durch Ebenen)
+
+
+
+Fullscreen/Windowed Mode?
+Dies funktioniert anders unter Windows und Linux.
+In Windows wird diese Einstellung gesaved und wir müssen das Spiel neustarten um den Modus
+zu wechseln.
+In Linux wird der Modus direkt geändert.
+
+
+Welche Monsterzauber gibt es?
+Feuerschlag   - Macht 0-(Zauberkraft+1)+2 Schaden
+Fluch         - Gibt uns einen zufälligen Fluch der 5-(Zauberkraft*2)+5 Runden hält
+                Wenn wir schon einen Fluch haben wir die Dauer diese Fluchs erhöht
+Diebstahl     - Raubt uns einen zufälligen Gegenstand
+                Wenn er einen Stapel trifft wird nur ein Gegenstand gestohlen
+                Wenn er den Geldbeutel trifft wird ein bestimmter Betrag gestohlen
+Manadiebstahl - Stiehlt uns 2-(Zauberkraft+1)+2 Mana
+Dunkler Sog   - Stiehlt uns 2-(Zauberkraft+1)+2 Lebenspunkten
+	        Das Monster kann aber nicht mehr wie sein Maximum haben
+Frostschlag   - Macht 0-(Zauberkraft+1)+2 Schaden
+Teleport      - Bewegt uns zurück auf den Eingang der Ebene
+Gegenzauber   - Beendet alle aktiven Sprüche
+
+
+Welche Fähigkeiten haben die Monster?
+Fliegen: Kann nicht mit Erdbeben angegriffen werden aber dafür mit Luft Zaubern
+Hinterhalt: Nur Monster mit dieser Fähigkeit legen Hinterhalte
+Gift: Vergiftet dich wenn es Schaden macht im Kampf. Kann nicht vergiftet werden
+Bestehlbar: Von diesem Monster kann man stehlen
+Fernkampf: Dieses Monster feuert Pfeile. Entfernung hängt von Entfernungswert ab
+Verstärkung: Dieses Monster holt Verstärkung wenn es angegriffen aber nicht
+   getötet wird
+Trocken: Immun gegn Dehydration (Wassermagie)
+Angst: Kann mit dem Angst Zauber verjagt werden (Schwarze Magie)
+Charm: Kann befreundet werden (Hexerei)
+Diebstahl: Stiehlt einen Gegenstand anstatt anzugreifen
+Brennt: Bekommt doppelten Schaden von Feuerzaubern
+Feuerresistenz: Immun gegen Feuermagie
+Steinfest: Kann nicht versteinert werden
+Blitzschlag: Wirft Blitze
+Gegenzauber: Mit 50% wehrt es Zauber ab
+Regeneration: Bekommt jede Runde 1-6 Lebenspunkte zurück
+Unverwundbar: Noch kein Effekt!
+Eisresistenz: Immun gegen Schaden von Eis
+Unsichtbar: Nur beim angreifen sichtbar. Ohne die Fähigkeit unsichtbares zu
+   sehen trifft man es nur mit 20%.
+Feueratem: Wirft Feuerbälle
+Giftatem: Wirft Giftatem
+Versteinern: Kann dich unmittelbar töten
+Frostatem: Wirft Eis
+Todesblick: Kann dich unmittelbar töten
+Blitzresistenz: Immun gegen Blitze
+Schatz: Hat manchmal normale Gegenstände
+Magischer Schatz: Hat manchmal magische Gegenstände
+KritischeResistenz: Es können keine kritischen Treffen angerichtet werden
+Schläft: Manchmal schläft es und kann mit Hexerei eingeschläfert werden
+Wasser: Existier nur im Wassermagie
+Einzigartig: Kann in jeder Ebene nur einmal seine
+Spinne: Bekommt den Bonus der Spinnenkönigin
+Goblin: Bekommt den Bonus des Goblinkönigs
+Untot: Bekommt den Bonus von herr der Untoten
+Ratte: In Katzenform bekommt du Angriffs/Schadensbonus
+Wolf: In Wolfform befreundest du dieses Monster
+Fledermaus: In Fledermausform befreundest du dieses Monster
+Katze: In Katzenform befreundest du dieses Monster
+Zerbricht Waffen: Die Chance das deine Waffe an diesem Monster zerbricht ist 5 mal so hoch
+Zerbricht Rüstungen: Die Cance das deine Rüstung zerbricht ist 5 mal so hoch wenn
+   dieses Monster dich trifft
+Steine: Wirft Steine
+
+
+Welche Räume existieren im Labyrinth?
+Händler: Es gibt 6 verschiedene Händler im Spiel. Jeder hat eine einzigartige Angebotsliste
+Unterirdischer Wald: In den Bäumen kannst du Äpfel finden.
+Pentagramm: Zusätzliche Manaquelle.
+Altar: Zusätzliche Quelle für Lebenspunkte.
+Bücherei: In den regalen kannst du Schriftrollen finden.
+Labor: Hier kannst du Tränke finden.
+Statue: Wenn du den Göttern teure Gegenstände anbietest werden sie dich mit Erfahrung belohnen.
+   Nur einmal pro Spieler. Nicht für die Gottlosen.
+Monsterfalle: Dieser Raum ist komplett mit Monstern gefüllt. Und die bist
+   mittendrin gefangen.
+Truhen: 3 unverschlossene Truhen.
+Gold: Gefüllt mit viel Gold.
+Friedhof: In den Gäbern kannst du Gegenstände finden,
+Brunnen: Wasserquelle. Alle Wasserschläuche werden aufgefüllt und der Durst auf 0 gesetzt.
+Schatz: 2 verschloßene und eine geöffnete grüne Schatztruhe.
+   (enthalten immer etwas magisches)
+Feuerdämon: Du mußt ihn töten um zu entkommen.
+Lehrer: Für eine Menge Geld abhängig von der Stufe kannst du hier trainieren.
+Drache: Du mußt ihn töten um zu entkommen. Er ist giftig!
+Lavaschatz: Eine grüne Schatztruhe umgeben von Lava. Die macht 5 Punkte Schaden.
+Stabteil: Eins der 9 Stabteile. Wenn du sie alle sammelst endet das Spiel und dein Highscore wird
+   mit "Hat überlebt" gekennzeichnet.
+Taverne: Hier kannst du Gefolgsleute anheuern. Sie werden wie beschworene Kreaturen behandelt.
+   Die besseren Kämpfer sind auch teurer. Du kannst nur einen Gefolgsmann haben.
+Hydra: Sie ist gefährlich! Die meisten Helden sterben hier! Wie stark sie ist hängt vom
+   Labyrinthlevel ab. Sie hat 9 Köpfe und du mußt alle abschlagen um sie zu töten.
+   Aber wenn du nicht genug Schaden anrichtest wachsen ihr 1-2 neue Köpfe.
+   Es ist unwichtig welches Feld der Hydra du angreifst.
+Bewachter Schatz: Die Tür wird von einem jungen roten Drachen bewacht. Unterschätze ihn nicht!
+Magier: Er kann dir auf 3 verschiedene Arten helfen. Er kann alle Monster im Labyrinth zerstören,
+   kann dich komplett heilen und kann alle Fallen entfernen.
+Unterirdischer See: Im Wasser kannst du versunkene Schätze finden.
+Vergessene Schmiede: Jedesmal wenn du die benutzt hast du eine Chance eine
+   zufällige Waffe zu schmieden.
+Leer: Dieser Raum ist mit Fallen gefüllt und du bist mittendrin.
+Thronsaal: Es gibt 3 verschiedene. Goblinkönig, Spinnenkönigin und Herr der Untoten.
+   Diese Monster gibt es nur einmal pro Ebene und so lange sie leben sind
+   ihre Untertanen stärker und kämpfen besser.
+     Sie beschwören jede Runde einen Untertanen in die Ebene.
+Gefängnis: Es gibt 2 Zellen mit einem Monster, einer Truhe und eine Wache.
+Fallen+Schätze: Dieser Raum enthält eine grüne Truhe aber ist mit vielen Fellaen geschützt.
+Orkdorf: Eine Menge Hütten und Orks.
+Hexengarten: Eine Hexe, eine Hütte und eine Menge Pilze und Heilkräuter
+
+
+Welche Spezial-Level existieren im Labyrinth?
+Eiskaverne: Eine Ebene gefüllt mit Eisblöcken und Kreaturen die kalte Temperaturen lieben.
+Lavakaverne: Ein Level aus Lava und Kreaturen die heisse Temperaturen lieben.
+Halle der Untoten: Besteht aus Grabsteinen und aussliesslich Untote.
+Goblinbau: Eine Höhle gefüllt mit goblinartigen Kreaturen. Und Roten Drachen.
+Diebesnest: Eine Höhle gefüllt mit Dieben, Assassinen und gefallene Helden. 
+Zentauerwald: Aussenlevel. Besteht aus Bäumen, vielen Zentauren und Kreaturen die es lieben
+   in den Wäldern zu leben.
+Halle der Illusionen: Besteht aus Sternen und Teleportern. Und einer Menge Zauberer.
+Spinnenbau: Eine Höhle gefüllt mit Spinnen und einer Spinnenkönigin irgendwo.
+Wüste: Aussenlevel. Eine Menge freie Platz gefüllt mit Sand, Djinns und Schlangen.
+   Hier wird man sehr schnell durstig.
+Archipelago der Alten: Aussenlevel. Besteht aus Wasser und Inseln und einer Menge Schätze und
+   Wassermonster.
+Sumpf: Der Sumpf der Einsamkeit ist gefüllt mit goftigen Pflanzen, Schlangen und anderen
+   Sumpfbewohnern.
+
+
+Was ist der Unterschied zwischen normalen, alten und uralten Stäben?
+  Normale Stöbe brechen mit 20% Warscheinlichkeit
+  Alte mit 10%
+  Uralte mit 5%
+
+
+Wofür ist Wissen gut?
+Kreaturenwissen: Addieren ihren Wert oppelt auf Angriff, Minimal und Maximalschaden
+Giftkunde: Jede Runde eine Chance vom zweifachen Wert das Gift eine Runde weniger dauert
+Fallenkunde: Addiert seinen Wert doppelt auf die Chance eine Falle zu verhindern
+
+
+Wie funktionieren Fernkampfwaffen?
+Die Chance einen Gener zu treffen ist die selbe wie beim Nahkampf.
+Heißt der Angriffswert * 10 minus Abwehr des Monsters * 10.
+(Modifiziert mit Gegenständen und Zaubern)
+Die Chance kritische treffer zu machen ist: Geschicklichkeit+Glück in Prozent (modifiziert
+vom Bogen und den Pfeilen)
+Der Schaden beträgt 2-12 (modifiert von Bogen und Pfeilen)
+
+
+Welche Kampfstile gibt es?
+(Abhängig von Waffentyp)
+Offensiver Kampfstil: (alle) +2 angriff und -2 abwehr
+Defensiver Kampfstil: (alle) -2 angriff und +2 abwehr
+Donnerhammer: (Hammer) -5 Angriff, Rüstung des Gegners wird ignoriert
+Aufspießen: (Speer) -2 Angriff, Doppelte Chance für kritische treffer
+Wirbel: (Schwert) -25% Schaden, Warscheinlichkeit nicht zu treffen halbiert
+Stababwehr: (Stab) -25% Schaden, Warscheinlichkeit getroffen zu werden halbiert
+     (Kann man nicht mit Ausweichen kombinieren)
+Schnelle Klinge: (Rapier) -2 Angriff, wenn der erste Angriff trifft greifst du gleich nochmal an
+   (Kann nicht mit Flinke Attacke kombiniert werden)
+Versteckte Klinge: (Dolch)  Der erste angerichtete Schaden gegen ein Monster wird verdoppelt
+Fegender Angriff: (Stabwaffe) -2 Angriff, alle Gegner um den Character werdena ngegriffen
+   (Kann man nicht mit Rundschlag kombinieren)
+
+
+Warum kann man gestohlene Gegenstände nicht zurückbekommen?
+Nicht vergessen das dies ein abstrakted Spiel ist.
+Wir wissen auch das es Sinn machen würde den Dieb zu töten und sich die gestohlenen
+Gegenstände zurückzuholen.
+ABER das würde stehlen sinnlos machen!
+Diebe sind sehr schwach und jeder kann sie besiegen!
+Es wird also NIE möglich sein gestohlene gegenstände zurückzubekommen!
+
+Kann man neue Fähigkeiten im Spiel bekommen? 
+Nein, das geht nicht! Das ist eine der Traditionen dieses Spiels.
+Das Spiel ist dafür gedacht nur kurz zu dauern, nicht wie andere Spieler dieser
+Art wo man einen Charakter erschafft und diesen für immer spielt.
+Wir wollen das ihr jedesmal einen neuen Charakter macht und neue Fähigkeiten auswählt.
+Um alle Fähigkeiten zu sehen muß mit diesen herumgespielt werden werden.
+Das ist das wovon List Labyrinth lebt... Kombinationen...
+
+
+Wofür sind die Stabteile?
+Wenn du alle 9 Stabteile einsammelst hast du das Spiel überlebt!
+Du kannst deinen Namen in den Highscore eintragen und der Eintrag wird gekennzeichnet
+das du überebt hast.
+Die zweite Art das Spiel zu überleben ist Ebene 150 zu meistern.
+
+
+Lost Labyrinth kompilieren?
+Lost Labyrinth ist Open Source!
+Das heißt jeder kann sich den Sourcecode, die Grafiken, die Sounds herunterladen,
+alles was man braucht um das Spiel zu bauen.
+ABER unter Windows kannst du das Spiel nur mit dem kommerziellen Purebasic Compiler bauen.
+(Diesen kannst du hier bekommen: http://www.purebasic.com)
+Und das ist ein kostenpflichtiges Programm. Tut uns leid!
+Unter Linux kannst du unseren eigenen Compiler "elice" benutzen um das Spiel zu kompilieren.
+Diesen bekommt man auf der Sourceforge Webseite.
+Du mußt Ruby, Racc, Gcc und Sdl dafür installiert haben.
+
+
+Lost Labyrinth in anderer Programmiersprache neu schreiben?
+Wir (die Programmierer dieses Spiels) lieben Purebasic!
+Es ist schnell, einfach und günstig! Und wir haben es schon gekauft.
+Für uns gibt es keinen Grund das Spiel in einer anderen Sprache neu zu schreiben.
+Wenn du das tun möchtest bist du willkommen. Du kannst alles benutzen was das Spiel benutzt,
+und wir werden deine Fragen beantworten um dir beim Start zu helfen.
+ABER wir werden nicht nochmal hunderte Stunden um das Spiel neu zu schreiben.
+
+
+Welche Unterschiede gibt es zwischen der klassischen und der neuen Version?
+Die klassische Version wurde für Jahre entwicklet aber wird seid einiger Zeit nicht 
+mehr weiterentwickelt.
+Die Programmierung wurde von einem Freund von mir gemacht mit dem ich zusammen
+Informationstechnik studiert habe.
+Also warum wurde Laby neu geschrieben?
+Die klasische Version war in Blitzbasic geschrieben was nicht mehr weiterentwickelt wird.
+Und dieser Compiler existiert nur für Windows.
+Purebasic, die Sprache in der die neue Version geschrieben ist, wird noch weiterentwickelt,
+und es gibt Versionen für Windows, Linux und Max OS.
+Und es hat einige Features (wie ein integrierter Packer) die Blitzbasic nicht bietet.
+
+
+Das Spiel wurde von Grund auf neu geschrieben und keine einzige Zeile Code der alten Version benutzt.
+Es wird also immer Unterschiede geben! Einihe Namen von Fähigkeiten haben sich geändert oder
+funktionieren ein bisschen anders. Beide Versionen haben Fähigkeiten die die andere nicht hat 
+(oder noch nicht hat).
+Wir haben eine Menge Arbeit investiert um guten und lesbaren Code zu produzieren. Es ist schon ziemlich
+struktuturiert. Und nahezu vollständig Modularisiert. Auf diese Weise können neue Funktionen schenll
+eingebat werden, was sicherstellt das wir die nächsten Jahre weitermachen können.
+Beide Spiele folgen den selben Traditionen. Benutzen viele gemeinsame Elemente aber manchmal
+auf geringfügig andere Weise.
+
+Vorsteile der neuen Version:
+Alle Ebenen des Labyrinths werden gespeichert. So können wir die Treppe hochlaufen.
+   (Erfahrungsgewinne bekommen wir natürlich nur einmal)
+Die Spieler können sich in unterschiedlichen Ebenen befinden.
+Beschworene Kreaturen verhalten sich wie Spieler.
+   Heißt sie haben eine Zugweite undkönnen ihren Beschwörer wirklich begleiten.
+Das Gepäck funktioniert ähnlich wie bei Diablo: Wir können Gegenstände verschieben mit der Maus
+   und sie auf Stapel legen. Außerdem können wir sie auf das Charakter Skelett verschieben um
+   sie zu benutzen.
+Wir haben einen Gürtel der wie ein Schnellzugriff funktioniert. Wir können bis zu 10
+Gegenstände hineinbewegen und diese im Hauptschirm durch anklicken oder F1-F10 benutzen.
+Die Treppe kann in allen 4 Ecken sein.

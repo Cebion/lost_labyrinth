@@ -1,0 +1,52 @@
+The Lost Labyrinth Sourcecode
+------------------------
+Release Date: 18.08.2010
+Version: 4.0.0
+Autor: Markus Doebele
+EMail: mar_doe@gmx.de
+Homepage: www.lostlabyrinth.com
+Language: purebasic (www.purebasic.com)
+Lizenz: GNU GPL Version 2 or (at your option) any later version
+
+
+Voraussetzungen
+----------------
+Um laby erfolgreich kompilieren zu können benötigen wir einige software pakete.
+In Debian/Ubuntu können wir einfach den folgenden Befehl ausführen:
+sudo apt-get install rpm debhelper build-essential devscripts fakeroot ruby racc libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl-sound1.2-dev libsdl-gfx1.2-dev libsdl-net1.2-dev
+
+Sourcecode bekommen
+--------------------
+Wir holen uns den Sourcecode aus dem Subversion Verzeichnis auf Sourceforge.
+Die Projektseite befindet sich hier: http://sourceforge.net/projects/lostlaby/
+Unter Windows benutzen wir dafür z.B. TortoiseSvn (http://tortoisesvn.tigris.org/).
+Unter Linux installieren wir dazu Subversion (sudo apt-get install svn).
+
+So ziehen wir uns dann den Code samt Grafiken und Sounds:
+svn co https://lostlaby.svn.sourceforge.net/svnroot/lostlaby lostlaby
+
+Compiler bekommen
+------------------
+Unter Windows benötigen wir den kommerziellen Purebasic Compiler.
+Diesen können wir hier kaufen: http://www.purebasic.com
+
+Unter Linux benutzen wir den Open Source Compiler Elice.
+Diesen bekommen wir wieder auf Sourceforge. Diesmal allerdings aus einem Bazaar Archiv.
+Zuerst mitteln "sudo apt-get install bzr" bazaar installieren.
+Danach mittels "bzr co bzr://elice.bzr.sourceforge.net/bzrroot/elice" den Compiler holen.
+In den elice ordner wechseln und darin "make && sudo make install" ausführen. Das installiert den Compiler.
+
+Laby compilieren
+-----------------
+Unter Windows öffnen wir den Purebasic Editor und laden laby.pb aus dem lostlabyrinth/pb Verzeichnis.
+Und drücken einfach den Knopf zum kompilieren. Das erstellt uns das Spiel und führt es direkt aus.
+
+Unter Linux:
+Ins Laby Verzeichnis wechseln und darin in den pb Ordner.
+Darin dann "elice laby.pb" ausführen.
+Das erzeugte Programm heißt "laby".
+Dieses können wir dann starten mitteln "./laby".
+
+
+
+Viel Spass!

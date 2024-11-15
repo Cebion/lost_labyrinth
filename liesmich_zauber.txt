@@ -1,0 +1,95 @@
+    Basismagie             Erdmagie                  Feuermagie               
+------------------------------------------------------------------------------
+01  Mondlicht              Erde Spüren               Funke                    
+02  Wirbelwind             Erdstärke                 Feuerschild              
+03  Heilung                                          Magische Flamme          
+04  Schutzschild           Golem zerstören           Feuerschlag              
+05  Arkaner Schlag         Portal                    Feuerlanze               
+06  Fallen Zeigen          Schutz Gegen Versteinern  Flammenmeer              
+07  Falle Zerstören        Fallensinn                Flammenaura              
+08  Schwert zu Pflugschar  Versteinern               Drachenfeuer             
+09                         Golem Beschwören                                   
+10  Vortex                 Erdbeben                  Feuerball                
+11  Rune Zerstören         Stein Zerstören           Feuerelementar Beschwören
+12                         Fallen Entfernen                                   
+13  Prismatisches Spray    Schatz ausgraben                                   
+14                                                                            
+15  Transmigration                                   Armageddon               
+ 
+ 
+    Schwarze Magie          Druidenmagie         Weisse Magie     
+------------------------------------------------------------------
+01  Skelett Beschwören      Magischer Apfel      Schmerzen Lindern
+02                          Tiere Bannen         Untote Bannen    
+03  Totengold                                    Weisser Schutz   
+04  Fledermausgestalt       Vogel Beschwören     Vergiftung Heilen
+05  Dunkler Sog             Öffnen               Heile Krankheit  
+06  Todesritter Beschwören  Wolfsgestalt         Giftschutz       
+07  Dunkles Mana            Satyr Beschwören     Andere Heilen    
+08  Mumie Beschwören        Pflanze Zerstören    Sanktum Finden   
+09  Verdorren               Gift Neutralisieren  Flüche Brechen   
+10  Dämon Beschwören        Telekinesis          Allheilung       
+11                          Regeneration         Engel Beschwören 
+12  Wort des Todes          Insektenschwarm      Andere Entgiften 
+13  Todeswolke              Mit Tieren Reden     Andere Entfluchen
+14  Den Tod Austricksen                          Exorzismus       
+15  Pestilenz                                    Wiederbelebung   
+ 
+ 
+    Zauberlieder          Luftmagie              Illusionsmagie     
+--------------------------------------------------------------------
+01  Lied der Reise        Winde Rufen            Schlaf             
+02  Lied des Kampfes      Federfall              Irrlicht           
+03  Lied der Hoffnung     Rückenwind             Vogelgestalt       
+04  Lied der Einsamkeit   Schutz vor Geschossen  Fallen Spüren      
+05  Lied des Todes        Fliegen                Unsichtbares sehen 
+06  Lied der Magie        Schock                 Vergolden          
+07  Lied des Lebens       Orkan                  Täuschung          
+08  Geistertanz                                  Verschwinden       
+09  Lied des Schutzes                            Doppelgänger       
+10                        Wegblasen              Unsichtbarkeit     
+11  Lied des Reichtums    Vakuum                 Blenden            
+12                        Windmeister            Teleport           
+13  Lied des Schlafes                                               
+14                        Dimensionentausch      Anker erschaffen   
+15  Lied des Selbstmords  Desintegration         Anker Teleportation
+ 
+ 
+    Hohe Magie             Sternenmagie           Wassermagie               
+----------------------------------------------------------------------------
+01  Chaos                  Sternenlicht           Erfrischung               
+02  Terminus                                      Eisschild                 
+03  Homunkulus beschwören  Nordlicht              Feuer Bannen              
+04  Magieschutz                                   Frostschlag               
+05  Verlängern             Sonnenlicht            Übers Wasser gehen        
+06  Stabilisieren          Glückszauber           Dehydration               
+07  Tunnel                 Sternenfee beschwören  Winteratem                
+08  Nexus Finden           Wahrlicht              Ewiger Winter             
+09  Brecher                Sternensicht           Flutwelle                 
+10  Penetration            Meteor                 Wasser Gefrieren          
+11  Verdoppeln                                    Wasserelementar Beschwören
+12  Schnellzauber          Sternenfeuer           Regen                     
+13  Macht                                                                   
+14  Syphon                                                                  
+15  Nexus                                                                   
+ 
+ 
+    Hexerei              Warlock           Beschwörer          
+---------------------------------------------------------------
+01  Monster Auge                                               
+02  Katzengestalt        Zauberschwert                         
+03  Verhexen             Zauberpfeile      Heile Kreatur       
+04  Hexensicht           Schlagkraft                           
+05  Wasser Stehlen       1000 Klingen      Verzaubere Kreatur 1
+06  Blitzschlag          Magischer Bogen   Kreatur entgiften   
+07  Tiger Beschwören     Zauberschild                          
+08  Schutz Gegen Blitze  Mentalschlag      Verzaubere Kreatur 2
+09  Vergiften            Konzentration     Runen entfernen     
+10  Geister Bannen       Zauberrüstung                         
+11  Erschaffe Besen      Präzision         Verzaubere Kreatur 3
+12  Energie der Steine                                         
+13  Selbsthypnose                                              
+14  Lebensbund                             Verzaubere Kreatur 4
+15  Drachengestalt       Unverwundbarkeit  Drache Beschwören   
+ 
+ 

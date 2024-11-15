@@ -1,0 +1,143 @@
+Lost Labyrinth
+------------------------
+Release Datum: 17.08.2010
+Version: 4.0.0
+Author: Markus Döbele
+EMail: mar_doe@gmx.de
+Homepage: www.lostlabyrinth.com
+Programmiersprache: purebasic (www.purebasic.com)
+Lizenz: GNU GPL Version 2 or (at your option) any later version
+
+
+Willkommen zu Lost Labyrinth!
+
+1. Wie installiere ich das Spiel?
+Es gibt verschiedene Versionen dieses Spiels
+- deb: Einfach "sudo dpkg -i lostlabyrinth_{version.deb}" ausführen
+- rpm: Einfach "rpm -i lostlabyrinth_{version}.rpm" ausführen
+       Vielleicht musst du eine bereits installierte Version löschen 
+       "rpm -e lostlabyrinth_{version}.rpm"
+       Su mußt root sein dafür. Der befehl "su" gibt dir root Rechte.
+- tar.gz: z.B. mit dem Programm "ark" auspacken
+- zip: z.B. mit dem Programm "winzip" auspacken
+
+2. Wie starte ich das Spiel?
+
+- deb/rpm (einfach "laby" in der Kommandozeile eingeben um das Spiel zu 
+  starten. Oder im Startmenü anklicken)
+- tar.gz (Du musst die Kommandozeile benutzen. Gehe in das Verzeichnis wo 
+  du laby installiert hast.
+Und rufe "./laby.exe" auf)
+Vielleicht musst du das hier machen damit du das Programm rufen kannst:
+Als Superuser das hier eingeben:  "chmod a+x laby.exe"
+- zip (Einfach auf das Programm Doppelklicken)
+
+3. Was ist Lost Labyrinth?
+
+Es ist ein bisschen wie Roque. Du erschaffst einen Charakter mit vielen 
+unterschiedlichen Fähigkeiten.
+Das Ziel des Spiels ist es so tief wie moeglich zu kommen. Jeder Level, 
+jedes Goldstrück das du findest und jedes Monster das du tötest gibt 
+dir Punkte.
+Am Ende kannt du deinen erzielten highscore als Fähigkeiten Kombination auf die Homepage
+hochladen.
+
+4. Vorraussetzungen
+
+Linux: Du musst "sdl" installiert haben.
+       (Dies erreichst du unter Debian/Ubuntu beispielsweise so:
+       sudo apt-get install libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0 libsdl-sound1.2 libsdl-gfx1.2 libsdl-net1.2)
+Windows: DirectX 6.0 oder höher.
+Wir brauchen das um all diese netten Sprites zu zeichnen.
+
+5. Wie spielt man?
+
+Der erste Level ist ziemlich klein (11 auf 11 Felder). Du fängst in einer zufälligen Ecke 
+an und musst den Ausgang zur nächsten Ebene finden. Jeder weitere Level 
+wird ein Feld groesser sein (Maximal 200 auf 200 Felder). Die Monster werden stärker, die Goldstücke 
+mehr und die Fallen tödlicher.
+Es ist ein rundenbasiertes Spiel (Wir mögen Stress nicht!). Dein Character 
+hat eine Zugweite pro Runde (Du fängst normalerweise mit 7 an). 
+Nachdem du alle Schritte gemacht hast wirst du bisschen hungriger,
+durstiger, dein Fackel brennt ein Stück ab, deine aktiven Zauber dauern 
+eine Runde weniger und ein neues Monster betritt das Labyrinth irgendwo. 
+Wenn deine Lebenspunkte auf 0 sinken bist du tot. Um deine
+Lebenspunkte aufzufüllen musst du das Sanktum finden, das wie ein Kreuz 
+aussieht, es existiert in jedem Level. Mit deinem mana zauberst du. 
+Jeder Spruch kostst dich Mana. Um dein Mana aufzufüllen musst du den
+Nexus finden der wie ein Pentagramm aussieht. Dieses existiert auch in 
+jedem Level.
+
+Die Tasten sind wie folgt belegt:
+"m"              Automap
+"i", "r", "b"    Rucksack
+"c", "z", "y"    Zaubermenü
+"d"              Character Datenblatt
+"p"              Stehlen
+"a"              Mystische Attacke
+"x"              Zug beenden
+"Cursorkeys"     zum laufen.
+
+6. Wie kämpft man
+
+Einfach auf ein Monster laufen um dieses mit deiner ausgeählten Waffe 
+anzugreifen. Um diese auszuwählen einfach i drücken und im Inventory 
+auswählen. Um eine Aktion dort zu machen einfach mit der linken Maustaste
+die Gegenstände anklicken. Um das Inventory zu verlassen einfach rechts 
+klicken (oder nochmal "i" drücken).
+
+7. Zaubern
+
+Für das Zaubern vieles ist wichtig. Die Anzahl deiner Zauber ist durch 
+deine gewählten Zirkel begrenzt (z.B. Schwarze Magie und Feuermagie) und dein 
+Zirkel Level. Jeder hat Basismagie welche dir eine Menge nützliche
+Zauber gibt. Die meisten Zirkellevel geben dir einen neuen Basiszauber. 
+Für gewählte Magiearten bekommst du extra Zauber. 
+Ein Tip: Wenn du Magietraining wählt beginnt du in Zirkel 3 und hast am 
+Anfang des Spiels schon ein paar Zauber. Normalerweise ist die Changse das 
+ein Spruch klappt 50 Prozent. Jedesmal wenn du einen Spruch erfolgreich zauberst 
+steigt deine Changse in diesem um 5 Prozent. Ein weiteres Attribut ist
+wichtig: Zaubermacht. z.B.. der Schaden den ein Feuerball macht ist Abhängig 
+von diesem Level. Alle aktiven Zauber werden beendet wenn du den Nexus betrittst.
+Um die Zauberliste aufzurufen kannst du "c" drücken. Benutze die Hoch/Runter 
+Cursortasten um deinen Zauber auszuwählen und Return um ihn zu zaubern.
+Bei einigen Zaubern musst du dann das Feld wählen wo sie hingezaubert werden. 
+Dieses navigierst du mit den Cursor Tasten und Space um ihn zu setzen.
+Mit der Maus einfach über das Zielfeld fahren und dort mit links klicken um den
+Zauber zu setzen.
+
+Zauber Schnelltasten:
+Wenn du eine Zahlentaste drückt während du auf einem Zauber bist wird dieser 
+auf diese Taste gespeichert.
+Du kannst ihn später mit dieser Taste ganz schnell zaubern. So kannst du bis 
+zu 10 Zauber speichern.
+
+Wenn wir im Hauptschirm mit der Maus üner einen Zauber gehen können wir ihn 
+durch drücken der rechten Maustaste beenden.
+
+8. Fullscreen/Fenstermodus
+
+Du kannt unter Optionen den Modus wechseln.
+Um die Maus freizugeben musst du Escape drücken.
+
+9. Sprache
+
+Die Sprache des Spiels kann man im Titelschirm ändern. Einfach auf die Flagge klicken.
+Dann kann man die gewünschte Sprache auswählen.
+Weiterhin gibt es eine Datei settings.txt in der man die Sprache ebenfalls ändern kann.
+
+10. Joystick
+
+Der Joystick muss im Options Menü eingeschaltet werden.
+Die Knöpfe sind folgendermassen belegt:
+1-Return
+2-Space (Um z.B. Spruch abzusetzen) oder Optionen
+3-Inventar
+4-Zaubermenü
+Auf die Knoepfe 5-8 kannst du Zauber legen wenn du sie drückst während du im 
+Zaubermenü bist.
+
+
+Viel Spass!
+
+Markus

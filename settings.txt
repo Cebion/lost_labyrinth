@@ -1,0 +1,20 @@
+# Lost Labyrinth Settings File
+# This in only a prototype!!!
+# After saving in the game the actual settings file will be here:
+# Users Homedirectory + '/.lostlaby/settings.txt'
+language = english   # english, german, spanish
+delay_animation  =   200   # One time animation    (5 Digits!)
+delay_animation2 =    90   # Animation from Fx     (5 Digits!)
+key_repeat =   90
+joystick = no   # yes, no
+no_mouse = no   # yes, no
+windowed = no    # yes, no
+sound = yes   # yes, no
+music = yes   # yes, no
+klicking = yes   # yes, no
+auto-toggle = no    # yes, no
+button5 = no    # yes, no
+jars = yes   # yes, no
+; IDE Options = PureBasic 4.10 (Linux - x86)
+; CursorPosition = 10
+; Folding = -

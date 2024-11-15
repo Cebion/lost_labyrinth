@@ -1,0 +1,50 @@
+The Lost Labyrinth Sourcecode
+------------------------
+Release Date: 18.08.2010
+Version: 4.0.0
+Autor: Markus Doebele
+EMail: mar_doe@gmx.de
+Homepage: www.lostlabyrinth.com
+Lenguaje: purebasic (www.purebasic.com)
+Licencia: GNU GPL Version 2 or (at your option) any later version
+
+
+Necesidades
+------------
+Para compilar laby necesitamos unos paquetes.
+En debian/ubuntu podemos hacer eso:
+sudo apt-get install rpm debhelper build-essential devscripts fakeroot ruby racc libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl-sound1.2-dev libsdl-gfx1.2-dev libsdl-net1.2-dev
+
+Obtener el codigo fuente
+-------------------------
+podemos cargar el codigo de la carpeta subversion en sourceforge.
+La pagina por el proyecto esta aqui: http://sourceforge.net/projects/lostlaby/
+En windows podemos usar tortoisesvn por eso: http://tortoisesvn.tigris.org/
+En linux instalamos subversion por eso: "sudo apt-get install svn"
+
+Asi obtenemos el codigo, las graficas y los sonidos:
+svn co https://lostlaby.svn.sourceforge.net/svnroot/lostlaby lostlaby
+
+Obtener el compilador
+----------------------
+En windows necesitamos el compilador comercial purebasic.
+podemos comprarlo aqui: http://www.purebasic.com
+
+En linux usamos el open source compilador elice.
+Podemos obtenerlo de sourceforge otra vez. Pero esta vez en una carpeta de bazaar.
+Primero tenemos que instalar bazaar: "sudo apt-get install bzr"
+Despues cargamos el codigo asi: "bzr co bzr://elice.bzr.sourceforge.net/bzrroot/elice"
+Despues vamos a la carpeta de elice a hacemos: "make && sudo make install". Eso compila a instala el compilador.
+
+Compilar laby
+-------------
+En windows iniciamos purebasic a cargamos laby.pb de la carpeta lostlabyrinth/pb.
+Podemos clickear en "run" para compilar y iniciar el juego.
+
+En linux vamos a la carpeta de laby y a la carpeta pb adentro.
+Despues ejecutamos: "elice laby.pb".
+El programa se llama "laby".
+Podemos iniciarlo con: "./laby".
+
+
+Que se devierte!

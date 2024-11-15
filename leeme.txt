@@ -1,0 +1,144 @@
+Lost Labyrinth 
+ -------------- 
+ Fecha: 17.08.2010
+ Version: 4.0.0
+ Autor: Markus Doebele 
+ E-Mail: mar_doe@gmx.de
+ PÃ¡gina web: www.lostlabyrinth.com 
+ Idioma: purebasic (www.purebasic.com) 
+ Licencia: GNU GPL Version 2 or (at your option) any later version
+ 
+ 
+ Bienvenido al Laberinto Perdido! 
+ 
+ 1. ¿Como puedo instalar el juego? 
+ 
+ Hay diferentes versiones del juego: 
+ - deb: Usa este comando: "sudo dpkg -i lostlabyrinth_{version}.rpm" 
+ - rpm: Usa este comando: "rpm -i lostlabyrinth_{version}.rpm" 
+        Tal vez tienes que borrar una version anteriormente instalada "rpm -e 
+        lostlabyrinth_{version}.rpm" 
+        tienes que estar root por eso. "su" te da estos privilegios.
+ - tar.gz: Por ejemplo usa esta programa: "ark"
+ - zip: Por ejemplo usa esta programa: "winzip"
+ 
+ 2. ¿Como empezar? 
+ 
+ - deb/rpm (Simplemente escribir "laby" o selecciona el juego en el menu) 
+ - tar.gz (Tienes que usar el shell. Entra al carpeta donde esta el juego 
+   "cd /home/markus/laby".
+Y escribe "./laby.exe") 
+ Comprueba que tienes permisos de ejecucion: 
+ Como superuser marca esto: "chmod a+x laby.exe" 
+ - zip (Simplemente haga klick en el programa)
+ 
+ 3. ¿Que es Lost Labyrinth? 
+ 
+ Lost Labyrinth es un juego RPG, es decir, Juego de Rol. En el, creas un personaje, 
+con sus propias habilidades.
+El objetivo de juego es avanzar por el laberinto hasta lo maximo posible. Cada nivel, 
+cada moneda de oro que encuentres y cada monstruo que matas te da puntos.
+Al funal puedes subir sus puntos a la pagina en el web.
+ 
+ 4. Requisitos para la instalacion
+ 
+ Linux: Necesitaras las librerias SDL para poder disfrutar de los buenos graficos de 
+Lost Labyrinth. 
+       (En debian/ubuntu eso se hace asi: 
+        sudo apt-get install libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0 libsdl-sound1.2 libsdl-gfx1.2 libsdl-net1.2)
+Windows: Necesitaras DirectX 6.0 o mejor para poder disfrutar de los buenos graficos 
+de Lost Labyrinth.
+ 
+ 5. Como jugar 
+ 
+ El primer nivel es muy pequeno (11 a 11 campos) y a medida que avanzas por el Laberinto, se hacen 
+mas y mas grandes (maximo 200 a 200 campos).
+El objetivo de cada nivel, y en general del juego, es encontrar la escalera de bajada 
+para el siguiente nivel de profundidad. Los monstruos seran cada vez mas peligrosos, 
+la cantidad de oro obtenida sera mayor y las trampas mas peligrosas. 
+ El funcionamiento del juego es turnos (¡No tenemos prisa!). Sin embargo, cada turno, 
+tu personaje tiene un maximo de movimientos, que vienen definidos por la velocidad 
+(Normalmente empiezas con 7 movimientos).
+Despues de que moverte te cansaras con lo cual empezaras a tenr hambre y sed. 
+Tu antorcha se consumira un poco, los encantamientos se van consumiendo y un nuevo 
+monstruo entra al laberinto. Si tu vida desciende hasta los cero puntos, moriras. 
+Sin embargo, no te preocupes, ya que te podras curar en el Sanktum (Las
+cruzes con forma de Ank). Los puntos de mana se iran consumiendo a medida de haces 
+hechizos, y este lo podras recargar en el nexus. (Objetos con forma de pentagram). 
+Tanto los Sanktum como los Nexus, existen
+en todos los niveles. 
+ 
+ Las teclas de acceso rapido son: 
+ "m" Automapa 
+ "i", "r", "b" Inventario 
+ "c", "z", "y" Hechizos 
+ "d" Datos del personaje 
+ "p" Robar 
+ "a" Ataque Mistico 
+ "x" Proximo Jugador 
+ "Flechas del teclado" Para mover a nuestro heroe 
+ 
+ 6. Como luchar 
+ 
+ Simplemente camina hacia el monstuo que quieres atacar. Deberas equiparte con 
+algun arma, ya que tus punos no haran mucho dano a tus enemigos. Para ello 
+pulsa "i" para acceder al inventario y elije el arma con el boton izquierdo 
+del raton. Selecciona "Equipar" en el menu tambien con el boton izquierdo
+del raton. Para salir del menu pulsa el boton derecho derecho del raton 
+o la tecla "i" de nuevo o hay un buton para salir tambien. 
+ 
+ 7. Sobre la Magia 
+ 
+ Para hacer hechizos hay varios aspectos importante a saber. La cantidad de 
+hechizos que tienes esta limitada por dos cosas: el nivel de hechizo de tu mago, 
+y/o el tipo de hechizero que sea tu mago (p.e. Magia de fuego y/o Magia negra). 
+Cada mago tiene una serie de hechizos basicos, y a medida que aumentes tu nivel 
+de hechizo, aprenderas algunos hechizos basicos y otros algo mas avanzados.
+Un consejo: Si seleccionas "Entrenado en magia" empiezas en el nivel 3 de magia, 
+con lo cual ya enpiezas con hechizos en el primer nivel. Normalmente las 
+probabilidades para realizas un hechizo con exito es del 50 por ciento. 
+Cada vez que realizas un hechizo con exito, este porcentaje aumentara
+en un 5 por ciento. Otro aspecto a tener en cuenta, es la potencia del hechizo. 
+Cuanto mÃ¡s elevado sea tu poder de hechizos, mas dano hara la bola de fuego, 
+y mas curara el hechizo de curacion. El poder de hechizo no influye en el 
+porcentaje de acierto a la hora de realizar el hechizo. Todos los hechizos
+activos sera terminados cuando uses un Nexus para recuperar mana. 
+ Para ver la lista de hechizos pulsa "c". Usa las flechas arriba/abajo para 
+seleccionar el hechizo y a continuacion pulsa Enter. 
+ Para algunos hechizos tendras que seleccionar el objetivo en donde quieres 
+usar dicho hechizo. Una vez seleccionado el hechizo, haces clic izquierdo sobre el. 
+ 
+ Hechizos rapidos: 
+ Si pulsas los numeros (0-9) cuando estas el el menu de hechizos guardaras el 
+ hechizo en dicho numero.
+Despues puedes usar el hechizo simplemente pulsando el numero. 
+ 
+ Podemos terminar los hechizos activos con el raton. Solamente muevelo al hechizo 
+que desees acabar y pulsa el boton derecho.
+ 
+ 8. Pantalla completa/Ventana 
+ 
+Puedes cambiar el modo en las opciones. 
+Para liberar el raton (acceder al escritorio) tienes que pulsar Escape. 
+
+ 9. idioma del juego
+ 
+en la primera pantalla del juego hay una bandera. si clickeas alla puedes elegir el
+idioma del juego.
+hay un archivo que se llama settings.txt tambien. es este puedes cambiar el idioma tambien. 
+
+10. Joystick 
+ 
+ Para usar el Joystick tendras que activarlo en las opciones. 
+ Las teclas por defecto son: 
+ 1-Return 
+ 2-Space (p.e. para poner un hechizo) or opciones
+ 3-Inventario 
+ 4-Hechizos 
+ Puedes guardar hechizos en los botones 5-8 cuando pulses el boton y estes en el 
+ menu de los hechizos.
+ 
+ 
+ ¡Disfruta! 
+ 
+ Markus 

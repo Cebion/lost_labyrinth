@@ -1,0 +1,185 @@
+Different parts of lost labyrinth have different licencing
+-------------------------------------------------------------
+
+sourcecode: gpl version 2 or any later version (see separate file)
+
+dungeon tiles and items: some are from angband with allowance from the artist david gervais to use them for lost labyrinth
+                         some are from rpgmaker 2000 (http://rpg2000.4players.de/)
+                         some are from the rltiles page on sourceforge (http://rltiles.sf.net)
+                         some are drawn by Massimiliano De Ruvo (wizball72@tiscali.it)
+                         some are drawn by Patrik Broberg (paedie@gmail.com)
+          
+Art:      end.jpg   named "staring contest between the grim reaper and the white bunny "
+          fsi17.jpg named "Advanced Dungeons and Lawyers"
+                          are drawn by Cyril van der Haegen (www.tegehel.org - used with his permission)
+                        
+          fsi0.jpg  named "Would you condemn me?"
+          fsi3.jpg  named "The Beast within"
+          fsi4.jpg  named "Guardian of the Necropolis"
+          fsi9.jpg  named "True Grit"
+          fsi10.jpg named "Living Death"
+          fsi14.jpg named "Skinner"
+          fsi18.jpg named "Ambush at the Swamp"
+                        are drawn by Martine Seedydeedee Davies (http://www.seedydeedee.co.uk - used with his permission)
+                 
+          fsi5.jpg   named "Ice Queen"
+          fsi15.jpg  named "Lyoness"
+          fsi19.jpg  named "Visions of the otherworld"
+          fsi24.jpg  named "Lord of the Rocks"
+                        are drawn by J. 'Kythera' Contreras (http://www.elfwood.com/~jcontreras - used with her permission)
+                 
+          fsi8.jpg   named "Dark Elf"
+          fsi16.jpg  named "Lich"
+                        are drawn by Camille Kuo (http://www.elfwood.com/~camilkuo - used with her permission)
+          
+          fsi22.jpg  named "The Dark Wizard"
+                        is drawn by Jimmy Gustafsson (http://www.elfwood.com/~jimmygzon - used with his permission)
+                        
+          fsi23.jpg  named "Airstaff"
+                        is drawn by Caitlin Brenna Johnston (http://www.elfwood.com/~caellinn - used with her permission)
+                        
+          fsi20.jpg  named "Pyramid"
+                        is drawn by Bart (http://opengameart.org) 
+                        
+modules: ballada is composed by xtd and he allowed us to use it for lost labyrinth
+         archonsoflight is composed by archangel and he allowed us to use it for lost labyrinth
+         the modules have been found in the mod archive (http://modarchive.org/index.php)
+         
+sounds: the sounds from the freesounds project (http://www.freesound.org/index.php)
+        and from (http://opengameart.org) 
+        are under the creative commons licence (see separate file)
+
+
+Samples used from Freesound 
+        By smidoid
+            cracking.wav (http://www.freesound.org/samplesViewSingle.php?id=49139)
+
+        By mad-monkey
+           power06.wav (http://www.freesound.org/samplesViewSingle.php?id=66692)
+
+        By reinsamba
+           crystal_glass.wav (http://www.freesound.org/samplesViewSingle.php?id=35631)
+           moan.wav (http://www.freesound.org/samplesViewSingle.php?id=48405)
+
+        By Erdie
+            bow.wav (http://www.freesound.org/samplesViewSingle.php?id=65733)
+            lightning.wav (http://www.freesound.org/samplesViewSingle.php?id=23779)
+
+        By Percy Duke
+            open.wav (http://www.freesound.org/samplesViewSingle.php?id=23451)
+
+        By Syna Max
+            fall.wav (http://www.freesound.org/samplesViewSingle.php?id=58793)
+            woman_screaming.wav (http://www.freesound.org/samplesViewSingle.php?id=58796)
+            blow4.wav-blow13.wav (http://www.freesound.org/samplesViewSingle.php?id=43586)
+
+        By Benboncan
+            buy.wav (http://www.freesound.org/samplesViewSingle.php?id=91924)
+            metal.wav (http://www.freesound.org/samplesViewSingle.php?id=103632)
+            wolf.wav (http://www.freesound.org/samplesViewSingle.php?id=78324)
+            earth.wav (http://www.freesound.org/samplesViewSingle.php?id=60085)
+
+        By engreitz
+            gold.wav (http://www.freesound.org/samplesViewSingle.php?id=79373)
+            gold1.wav (http://www.freesound.org/samplesViewSingle.php?id=79212)
+
+        By Ekokubza123
+            blow1.wav (http://www.freesound.org/samplesViewSingle.php?id=104183)
+
+        By nextmaking
+            blow2.wav (http://www.freesound.org/samplesViewSingle.php?id=86018)
+            blow3.wav (http://www.freesound.org/samplesViewSingle.php?id=86019)
+
+        By dobroide
+            insect.wav (http://www.freesound.org/samplesViewSingle.php?id=95817)
+
+        By Sea Fury
+            roar.wav (http://www.freesound.org/samplesViewSingle.php?id=48673)
+
+        By plagasul
+            jawa.wav (http://www.freesound.org/samplesViewSingle.php?id=77)
+
+        By Bernd Edler (Grunz) (released under creative commons license)
+            huh.wav
+            deathcry.wav
+            ow.wav
+            success.wav
+            chaos.wav
+            darkness.wav
+            harp.wav
+
+        By ERH
+            howl.wav (http://www.freesound.org/samplesViewSingle.php?id=31135)
+
+        By axiyee
+            horse.wav (http://www.freesound.org/samplesViewSingle.php?id=79085)
+
+        By Miselaineous
+            blackcat.wav (http://www.freesound.org/samplesViewSingle.php?id=63668)
+
+        By inferno.wav
+            cannon.wav (http://www.freesound.org/samplesViewSingle.php?id=18403)
+            cannon2.wav (http://www.freesound.org/samplesViewSingle.php?id=18390)
+
+        By Dynamicell
+            flame2.wav (http://www.freesound.org/samplesViewSingle.php?id=17548)
+
+        By homejrande
+            flame.wav (http://www.freesound.org/samplesViewSingle.php?id=17375)
+
+        By wildweasel
+            fireball.wav (http://www.freesound.org/samplesViewSingle.php?id=39016)
+
+        By daveincamas
+            frog.wav (http://www.freesound.org/samplesViewSingle.php?id=32807)
+
+        By timtube
+            hohoho.wav (http://www.freesound.org/samplesViewSingle.php?id=61042)
+
+        By Robinhood76
+            chicken.wav (http://www.freesound.org/samplesViewSingle.php?id=75726)
+            boar.wav (http://www.freesound.org/samplesViewSingle.php?id=76796)
+            splish.wav (http://www.freesound.org/samplesViewSingle.php?id=79657)
+
+        By Timbre
+            glass.wav (http://www.freesound.org/samplesViewSingle.php?id=86324)
+
+        By jaimedaniel
+            wind.wav (http://www.freesound.org/samplesViewSingle.php?id=17817)
+
+        By duckboy80
+            splash.wav (http://www.freesound.org/samplesViewSingle.php?id=42142)
+
+        By Heigh hoo
+            fillup.wav (http://www.freesound.org/samplesViewSingle.php?id=44775)
+
+        By Pogotron
+            evasion.wav (http://www.freesound.org/samplesViewSingle.php?id=60835)
+
+        By luffy
+            gulp.wav (http://www.freesound.org/samplesViewSingle.php?id=17295)
+
+        By ggctuk
+            bite.wav (http://www.freesound.org/samplesViewSingle.php?id=80551)
+
+        By joedeshon
+            missed.wav (http://www.freesound.org/samplesViewSingle.php?id=79678)
+
+        By junggle
+            select.wav (http://www.freesound.org/samplesViewSingle.php?id=26777)
+            
+        By FreqMan 
+            open_door.wav (http://www.freesound.org/samplesViewSingle.php?id=23168)
+            
+        By pagancow
+            open_chest.wav (http://www.freesound.org/samplesViewSingle.php?id=15419)
+        
+        By acclivity
+            ding.wav (http://www.freesound.org/samplesViewSingle.php?id=14370)
+
+        By DoKashiteru
+            holy.wav (http://opengameart.org/content/3-heal-spells)
+
+        By artisticdude
+            laaa.wav (http://opengameart.org/content/magic-sound-effects)
+            

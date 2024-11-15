@@ -1,0 +1,95 @@
+    Magia Basica          Magia de Tierra      Magia de Fuego             
+--------------------------------------------------------------------------
+01  Luz Lunar             Sentir la Tierra     Chispa                     
+02  Torbellino            Fuerza Terrestre     Escudo de Fuego            
+03  Curacion                                   Llama Magica               
+04  Escudo                Destruir Golem       Rayo de Fuego              
+05  Rayo Secreto          Portal               Lanza de Fuego             
+06  Muestra Trampas       Proteccion: Piedra   Mar de Fuego               
+07  Destruir Trampa       Alarma de Trampas    Aura de Fuego              
+08  de espadas en aradas  Convertir en Piedra  Fuego de Dragon            
+09                        Conjurar Golem                                  
+10  Vortice               Terremoto            Bola de Fuego              
+11  Destruye Runa         Destruye Piedra      Conjurar Elementar de Fuego
+12                        Quitar Trampas                                  
+13  Espray prismatico     Tesoro Enterrado                                
+14                                                                        
+15  Transmigracion                             Armagedon                  
+ 
+ 
+    Magia Negra                   Magia de Druida      Magia Blanca            
+-------------------------------------------------------------------------------
+01  Conjurar Esqueleto            Manzana Magica       Aliviar el Dolor        
+02                                Castigar Animales    Castigar No-Muertos     
+03  Oro del Muerto                                     Proteccion Blanca       
+04  Cuerpo de Murcielago          Conjurar Pajaro      Curar Veneno            
+05  Drenar Vida                   Abrir                Curar Enfermedad        
+06  Conjurar Caballero de Muerto  Cuerpo de Lobo       Proteccion Veneno       
+07  Mana Oscuro                   Conjurar Satiro      Curar Otros             
+08  Conjurar Momia                Destruir Planta      Encontrar Santuario     
+09  Marchitarse                   Neutralizar Veneno   Quitar Maldiciones      
+10  Conjurar Demonio              Telequinesia         Cura Verdadera          
+11                                Regeneración         Conjurar Angelo         
+12  Palabra de Muerte             Nube de Insectos     Curar Veneno de Otros   
+13  Nube de Muerte                Hablar con Animales  Curar Maldicion de Otros
+14  Enganar al Muerte                                  Exorcismo               
+15  Pestilencia                                        Resureccion             
+ 
+ 
+    Canciones Magicas       Magia de Aire              Ilusionismo              
+--------------------------------------------------------------------------------
+01  Cancion de Viaje        Llamar a los Vientos       Dormir                   
+02  Cancion de Batalla      Peso Pluma                 Voluntad de la Luciarnaga
+03  Cancion de Esperanza    Vientos amigos             Cuerpo de Pajaro         
+04  Cancion de Soledad      Proteccion Contra Misiles  Sentir Trampas           
+05  Cancion de Muerte       Volar                      Ver el Invisible         
+06  Cancion de Magia        Shock                      Convertir en Oro         
+07  Cancion de Vida         Huracan                    Illucion                 
+08  Danza de Fantasmas                                 Desvanecerse             
+09  Cancion de Protecion                               Gemelo                   
+10                          Refaga de Viento           Invisibilidad            
+11  Cnacion de la Riqueza   Vacuum                     Cegar                    
+12                          Maestro de Vientos         Teletransporte           
+13  Cancion de Dormir                                                           
+14                          Cambiar Dimensiones        Crear Ancla              
+15  Cancion del Suicidio    Desintegracion             Teleportacion a Ancla    
+ 
+ 
+    Alta Magia           Magia Estelar                   Magia de Agua             
+-----------------------------------------------------------------------------------
+01  Chaos                Luz Estelar                     Refrescar                 
+02  Terminar                                             Escudo Antihielo          
+03  Conjurar Homunkulus  Luz Polar                       Extinguir Fuego           
+04  Proteccion Magica                                    Bola de Hielo             
+05  Extender             Luz Solar                       Caminar Sobre el Agua     
+06  Persistente          Conjuro de Suerte               Deshidratacion            
+07  Tunel                Conjurar Hada de las Estrellas  Aliento Invernal          
+08  Encontrar Nexo       Luz Verdadera                   Invierno Eterno           
+09  Romper               Vista de las Estrellas          Ola de la Marea           
+10  Penetracion          Meteoro                         Congelar Aqua             
+11  Doblar                                               Conjurar Elementar de Aqua
+12  Hechizo Rapido       Fuego Estelar                   Lluvia                    
+13  Poder                                                                          
+14  Sifon                                                                          
+15  Nexo                                                                           
+ 
+ 
+    Brujeria                Arsenal           Conjurador               
+-----------------------------------------------------------------------
+01  Ojo de Monstruo                                                    
+02  Cuerpo de Gata          Espada Superior                            
+03  Encanto                 Flechas Magicas   Curar Kriatura           
+04  Vista de Bruja          Golpe de Fuerza                            
+05  Robar Aqua              1000 Espadas      Mejorar Kriatura 1       
+06  Relampago               Arco Magico       Curar Criatura Envenenada
+07  Conjurar Tigre          Escudo Superior                            
+08  Proteccion: Rayos       Rayo Mental       Mejorar Kriatura 2       
+09  Envenenar               Concentracion     Destruya Runas           
+10  Castigar Fantasman      Armadura Magica                            
+11  Crear Escoba            Precicion         Mejorar Kriatura 3       
+12  Energia de las Piedras                                             
+13  Hypnotizar uno Mismo                                               
+14  Bondo de Vida                             Mejorar Kriatura 4       
+15  Cuerpo de Dragon        Invulnerabilidad  Conjurar Dragon          
+ 
+ 

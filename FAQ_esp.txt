@@ -1,0 +1,477 @@
+Lost Labyrinth FAQ
+
+Que hacen los campos especiales?
+Que hacen nuestros atributos?
+Como funciona el combate?
+Que hacen las maldicciones?
+Como funciona avanzar despacio?
+Que hace auto-toggle?
+Como hago puntos por el highscore?
+Fullscreen/Ventana?
+Cuanto dano hacen los hechizos del ataque?
+Que hechizos tienen los monstruos?
+Que abilidades tienen los monstruos?
+Que habitaciones hay en el labirinto?
+Cual niveles especiales hay en el labirinto?
+Cual es la diferencia entre los bastones normales, viejos y antiquísimos
+Para que sirven las sabidurias?
+Como funcionan las armas de distancia?
+Cual estilos del combate hay?
+Porque es imposible reobtener objetos robados?
+Se puede aprender nuavas abilidades en el juego?
+Para que sirven las partes del bastón?
+Compilar Lost Labyrinth
+Reescibir Lost Labyrinth en otro lenguaje de programacion
+Cuales son las diferencias entre la verciona classica y la nueva?
+
+
+
+Que hacen los campos especiales?
+The sanktum regenerates your lifepoints. 
+It has 3 charges.
+When you are an akolyth it will also cure poison, break curses and replenish your mana.
+If we have auto-toggle turned off we need to press space to use it!
+
+The pentagram regenerates your mana. 
+It has 3 charges.
+If we have auto-toggle turned off we need to press space to use it!
+
+This field leads to the next level
+Thats what we have to find in each level!
+
+This field leads one level up
+If we have auto-toggle turned off we need to press space to use it!
+
+This field leads to the next level too
+When the next level is a special outdoor level!
+From how it looks like you can tell to what level it leads!
+
+When you use the shovel on this field you will 
+find some treasure. Can be everything from Weapons/Armor/Light/Gold to magical Items.
+
+When you use the pickaxe on this field you destroy it and get a passage. Sometimes very helpful!
+
+This is a room. There are a lot of different ones.
+Most of them are useful but there are some dangerous ones too!
+
+When you use the shovel on this field you will 
+find some treasure. Can be everything from Weapons/Armor/Light/Gold to magical Items.
+
+
+Leads to the next level but you can only use it when you have a rope,
+the skill climbing or the spell featherfall.
+
+The black magician needs bones for a lot of his spells. There are 9 different ones
+and they all work the same. Sometimes an undead will wake up when you walk over it!
+
+Here you can sacrifice items from your inventory to the gods. But they are selective 
+of what they like. Basically we can say everthing of high value can be accepted.
+When accepted you receive an experience gain as reward!
+
+This rune will destroy all summoned creatures that walk over it!
+
+This rune will harm all summoned creatures that walk over it
+
+This rune will not allow summoned creatures to pass!
+
+Here you get 10 thirstpoints back!
+If we have auto-toggle turned off we need to press space to use it!
+
+
+Que hacen nuestros atributos?
+Attack - We need this to hit opponents in combat.
+  It counts towards melee and ranged combat but not for spells.
+Dexterity - We need this to avoid getting hit by opponents and to dodge traps.
+  Can never be higher than 15!
+Strength - The damage we do in closed combat depends mainly on this and on the weapon we are using.
+  Can never be higher than 15!
+Lifepoints - We have an actual and a maximum value. When the actual value reaches zero we are dead.
+  When we enter the sanctum our Lifepoints get filled up to maximum value. We can never have more
+  Lifepoints than the maximum value. Can never be higher than 150!
+Speed - Every turn we have that many steps. When our turn ends the monsters attack,
+  light burns a bit and poison does damage. And new monsters enter the labyrinth. 
+  Can never be higher than 25!
+Perception - With this we find traps, secret doors and hidden treasure.
+  Can never be higher than 15!
+Luck - Helps to find traps, secret doors and hidden treasure. Helps doing critical hits.
+  Also modifies the amount of gold we find. Can never be higher than 15!
+Mana - We need this energy to cast spells. Every spell costs mana. 
+  The pentagam (nexus) recharges our mana to the maximum value.
+  We can never have more than our maximum. Can never be higher than 150!
+Spellpower - This value says how strong our spells are. f.e. a spark does 2-(Spellpower+3) damage.
+  Can never be higher than 15!
+Spellcircle - The amount of spells we know depends on this rating. 
+  Have a look into the "readme_spells" to know exactely, which spells you learn at which level.
+  There are spells up to level 15.
+
+
+Como funciona el combate?
+Your chance to hit an opponent is like:
+  20% + Your attack rating * 10 + weapon attack rating * 10 + magical items and spells 
+  minus the defence rating of the monster * 10
+
+
+How much damage do I cause? You score a pointvalue between a minimum and a maximum rating,
+  that is calculated like this:
+  Minimum = Your strength/2 + weapon min rating 
+    + Spells(f.e. Strength) and Magical Items
+  Maximum = Your strength + weapon max rating
+    + Spells(f.e. Strength) and Magical Items
+If you fight unarmed, and do not have the bare hand combat feat, all this
+damage is halved.
+Sometimes the scored value can be 0. This means that you sucessfully hitted
+ your opponent, but you couldn't penetrate his armor!
+
+And there is a chance to kill a monster instantly with a critical hit.
+The chances to score this one is calculated like:
+(Your dexterity rating + Your luck rating) * 2 + Weapon critical rating
+The Maximum you can have is 30%. With Assassination its 45%.
+
+Armor works like this:
+All monsters have an armor rating. Like e.g. the Hobgoblin has 6.
+This means that every time you hit him a number of damage point
+between 0 and 6 is subtracted from your damage (this is random).
+The remaining points are subtracted from his livepoints as damage.
+Characters armor (the values of all items combined) gives us a minimum and 
+a maximum rating. We can see this in the character info page.
+Means e.g. if we have armor that says 4-6 points that everytime a monsters
+deals us damage a random number between 4 and 6 points gets subtracted.
+If there are any points left this is the damage we receive.
+
+
+Que hacen las maldicciones?
+Nameless Curse - (No Experience Gain)
+Curse of Tiamat - (One Point Damage per Round)
+Curse of Hekate - (Your Power is 1)
+Curse of Ares - (Your Attack is 1)
+Curse of Paralysis - (Your Movement is 1)
+Curse of Artemis - (Your Dexetrity is 1)
+Curse of Achilles - (Monsters do double Damage)
+Curse of Blindness - (Sight is 1)
+Curse of Hephaistos - (Armor is useless)
+Curse of Hades - (All skeletons wake up)
+Curse of Seth - (You can't use pentagrams
+Curse of Apophis - (Poison lasts endless)
+Curse of Dagda - (You starve twice as fast - hunger)
+Curse of Naiaden - (You starve twice as fast - thirst)
+Curse of Osiris - (You can't use the sanktum)
+Curse of Leprechaun - (You can't pick up gold)
+Curse of Marduk - (Ambushes twice as often)
+Curse of Astarte - (All chests are empty) 
+Curse of Poseidon - (Double damage from drowning)
+Curse of Tanis - (Duration of all spells halfed)
+Curse of Athene - (Monsters hit better in Close Combat)
+Curse of Morrigu - (Monsters hit better in ranged combat)
+Curse of Chicken - (Very bad attributes)
+Curse of Magneto - (Weight counts twice)
+Curse of Gaia - (Weapons and Armor break twice as often)
+Curse of Nosferatu - (Merchants and Trainers flee from you)
+
+
+Como funciona avanzar despacio?
+With sneaking you can pass monsters without fighting them.
+Your chance for that is:
+With skill sneaking:
+Luck * 5% + Dexterity * 10% + 25%
+Without:
+Luck * 5% + Dexterity * 5%
+In Bat + Bird + Catform you got 70%
+Invisiblity gives you another + 40%
+Minus the Awareness of the Monster
+Maximum is 80%
+Additionally sometimes monsters do not notice you and do not attack then.
+The chance for this is:
+With skill sneaking:
+(Luck + Dexterity) * 2%
+Without:
+Luck + Dexterity
+
+
+Que hace auto-toggle?
+Normally this mode is disabled. That means 
+ you have to press the spacebar to pickup items or to use altars, stairs and the like.
+In the options you can turn it on which means all items are picked up automatically
+ and stairs and the like are used automatically.
+
+
+Como hago puntos por el highscore?
+Every level gives you 10 points.
+Gold coins / 10 (you cannot get more points for monsters then for levels!)
+Killed Monsters / 5 (you cannot get more points for killed monsters then for levels!)
+
+
+
+Fullscreen/Ventana?
+This works different in Windows and Linux. 
+ In Windows the setting gets saved to disk. And we have to restart the game to change the mode.
+ In Linux the mode is directely changed.
+The mouse will still be locked. So you have to press the Escape Key to release it.
+To use it again for the game we have to activate the window:
+ move the mouse over it and press Escape again.
+
+
+
+Cuanto dano hacen los hechizos del ataque?
+Name Cost Damage 
+Whirlwind: 1 Random(power() + 1) + 1 
+Hurricane: 1 Random(power() * 2) + 1 
+Spark: 1 Random(power() + 1) + 2 
+Firebolt: 2 Random(power() * 2 + 5) + 5 
+Flameburst: 2 Random(power() * 2 + 1) + 2 (On each field in a row!) 
+Sea of Flames: 3 Random(power() + 1) + 2 (All fields on the screen!) 
+Fireball: 3 Random(power() * 2 + 3) + 4 (On 9 Fields!) 
+Dragonfire: 3 Random(power() * 3 + 8) + 8 
+Desintegration: 3 Random(power() * 4 + 6) + 4 
+Armageddon: 10 Random(power() + 1) + 2 (On all monsters in the level!) 
+Pestilence: 10 Random(power() + 1) + 2 (On all non undead monsters in the level!) 
+Drain Life: 3 Random(power() + 1) + 2 (You get these points!) 
+Meteor: 4 Random(power() * 2 + 3) + 3 (On 9 Fields!) 
+Mentalbolt: 2 Random(power() * 2 + 1) + 1 
+Vortex: 3 Random(power() * 2 + 3) + 2 
+Lightning Bolt: 2 Random(power() * 2 + 3) + 2 
+Frostbolt: 2 Random(power() * 2 + 3) + 2 
+Dehydration: 2 Random(power() * 2 + 4) + 3 
+Arcane Bolt: 2 Random(power() * 2 + 1) + 2 
+Starfire: 4 Random(power() + 2) + 3 (All fields on the screen!) 
+
+
+Que hechizos tienen los monstruos?
+Fireball Does damage Random(Spellpower+1)+2 
+Curse We get a random curse that lasts for Random(Spellpower*2)+5. 
+ If we already have a curse the duration of it is increased by this amount 
+Steal This spell robs one item from our inventory. 
+ When it hits a stacked item only one item is stolen. 
+ When it hits our moneybag only a certain amount of money is stolen 
+Steal Mana Steals Random(Spellpower+1)+2 manapoints 
+Drain Life Steals us Random(Spellpower+1)+2 Lifepoints which are added to the monsters life. 
+ But it can not have more than its maximum 
+Frostball Does damage Random(Spellpower+1)+2 
+Teleport Moves us back to the entry of the level 
+Dispel Terminates all our active spells 
+
+
+Que abilidades tienen los monstruos?
+Flying: The monster cannot be damaged by earthquakes, but is affected by air spells.
+Ambushes: You can only be ambushed by monsters with this skill.
+Poison: This monster will poison you when it deals damage in close combat. 
+ Its unaffected by poison.
+Robable: You can steal from this monster 
+Ranged: This monster fires arrows. Distance depends on the ranged score of the monster.
+Backup: This monster calls for backup when you attack it but not destroy it.
+Dry: Is immune to dehydration (Water Magic) 
+Fear: Is affected by the spell Fear (Black Magic). 
+Charm: Is affected by the spell Charm (Witchcraft)) 
+Thievery: It will steal you an item instead of attacking. 
+Burns: Gets twice the amount of damage from fire spells. 
+Fire resistance: Is immune to damage from fire. 
+Stone resistance: Cannot be turned to stone. 
+Lightning: Throws lightning bolts. 
+Dispel: Will counter 50% of your attack spells. 
+Regeneration: Each round gets 1-6 Kifepoints back. 
+Unvulnerable: No effect yet! 
+Ice resistance: Immune to damage from Ice. 
+Invisible: Only visible during attacking. 
+  Without the ability to view invisible you only attack with 20%
+Firebreath: Will throw fireballs. 
+Poisonbreath: Throws poison. 
+Turn to stone: Can kill you instantely.
+Frostbreath: Will throw ice. 
+View of Death: Can kill you instantely. 
+Lightning resistance: Immune to lightning bolts. 
+Treasure: Sometimes has a normal, non-magical items. 
+Magical Treasure: Sometimes carrys a magical item. 
+Critical resistance: You cannot deal critical hits to this monster. 
+Sleeps: Sometimes the monster sleeps. Can be put to sleep (Witchcraft) 
+Water: Exists only in water. 
+Unique: Can only exist once in every level. 
+Spider: Gets the bonus from spiderqueen.
+Goblin: Gets the bonus from goblin king. 
+Undead: Gets the bonus from lord of the undead. 
+Rat: In catshape you get an attack/damage bonus. 
+Wolf: In wolf form you befriend this monster. 
+Bat: In bat form you befriend this monster. 
+Cat: In cat form you befriend this monster. 
+Breaks weapons: The chance that your weapon breaks when you attack this monster is 5 times as high.
+Breaks armor: The chance that your armor breaks is 5 times as high when this monster hits you.
+Stones: This monster will throw stones.
+
+
+Que habitaciones hay en el labirinto?
+Trader: There are 5 different traders in the game. Each one has a unique list of items in stock.
+Underground Forest: In the Trees you can find apples.
+Pentagram: Additional source to replenish your mana.
+Altar: Additional source to replenish your lifepoints.
+Library: In the bookshelves you can find scrolls.
+Laboratory: Here you can find potions.
+Statue: When you offer expensive goods to the gods they will reward you with an experience gain.
+  Only once per player. Not for the godless.
+Monstertrap: This room is filled with monsters and you are trapped right in their middle.
+Chests: 3 unlocked chests. 
+Gold: Filled with a lot of gold. 
+Cemetary: In the graves you can find various items.
+Pond: Watersource. All your waterskins get filled up and your thirst is set to 0.
+Treasure: Two locked and one unlocked green treasure chests
+  (they always contain something magical!) 
+Firedemon: You have to kill him and his followers to escape 
+Trainer: For an amount of money depending on your rating you can train an attribute here. 
+Dragon: You have to kill him to escape. He is poisenous! 
+Lavatreasure: A green treasure chest surrounded by lava fields. 
+  Those do 5 points of fire damage.
+Piece of the Staff: One of the 9 pieces of the staff of the last covenant. 
+  When you collect all, the game ends and your game is marked as "survived"! 
+Tavern: Here you can hire a companion. He will act like a summoned creature. 
+  The better fighters are more expensive. And you can only have one companion. 
+Hydra: She is dangerous! Most people die here! How strong she is depends on the dungeon level. 
+  She has 9 heads and when you destroy all of them she dies, but if you do not deal enough damage,
+  she grows 1-2 new heads! Its not important which one of the fields you attack! 
+Protected treasure: The door is blocked by a young red dragon. Do not underestimate him! 
+Wizard: He can help you in 3 different ways: He can destroy all monsters in the level,
+  he can cure you totally or he can remove all traps in the level.
+Undergound lake: In the water you can find sunken treasures.
+Forgotten forge: Everytime you use the forge you have a chance 
+  that you sucessfully forge a random weapon.
+Empty: This room is filled with traps and you right between them. 
+Throneroom: There are 3 different kings: Goblinking, Spiderqueen and Lord of the Undead. 
+  These monsters are unique per dungeon level and as long as they live, 
+  their followers are stronger and fight better. 
+  They also summon one follower in the level each round.
+Prison: There are 2 cells with a monster and a chest each and a guard. 
+Traps+Treasure: This room contains a green chest but its protected by a lot of traps.
+Orc Village: A lot of Huts and Orcs.
+Witch Garden: A Witch, a Hut and a lot of Mushrooms and Healing Herbs. 
+
+
+Cual niveles especiales hay en el labirinto?
+Cavern of Ice: A level filled with a lot of iceblocks and creatures that like cold temperatures.
+Cavern of Lava: A level made out of lava and a lot of creatures that like hot temperatures.
+Hall of the Undead: Consists of tombstones and there are only undead here.
+Goblin Lair: A cave filled with only goblinlike Monsters. Well and red dragons  
+Thieves Fen: A cave filled with only thieves, assassins and fallen heroes. 
+Centauer Forest: Outdoor level. Consists of trees and there are a lot of centaurs
+  and animals that like to live in forests. 
+Hall of Illusions: This level consists of stars and teleporters. And a lot of spellcasters.
+Spiderlair: A cave filled with tons of spiders and a spiderqueen somewhere. 
+Desert: Outdoor level. A lot of open space filled with sand, djinns and snakes. 
+  One gets thirsty very fast here.
+Archipel of the Ancients: Outdoor level. Consists of water and small islands,
+  and a lot of treasure and watermonsters.
+Swamp: The swamp of loneliness is filled with poisenous plants and snakes and other swamp dwellers.
+
+
+Cual es la diferencia entre los bastones normales, viejos y antiquísimos
+  Common Staffs break with 20% probability
+  Elder with 10%
+  Ancient with 5%
+
+
+Para que sirven las sabidurias?
+Creaturelores: add their double value to attack, minimum and maximum damage
+Poisonlore: There is a change of twice its value that poison lasts one turn less each turn
+Traplore: Adds its double value to the chance to prevent a trap
+
+
+Como funcionan las armas de distancia?
+The chance to hit an opponent is the same as with a closed ranged weapon.
+Means your attack rating multiplied by 10 minus the defence of the monster multiplied by 10.
+(Modified by your items and active spells)
+The chance to do a critical hit is: Dexterity+Luck in Percent (modified by used bow and arrows).
+The amount of damage you cause is: 2-12 (modified by used bow and arrows)
+
+
+Cual estilos del combate hay?  (Depending on type of used weapon)
+Offensive combat stance: (all) +2 to attack and -2 to defense 
+Defensive combat stance: (all) +2 to defense and -2 to attack 
+Sunder hammer: -5 to attack; the armor of the opponent is ignored 
+Impale spear: provides -2 to attack; the critical hit chance is doubled 
+Whirling Blades: (sword) -25% to damage caused; the chance to miss an attack is halved 
+Staff Defense: -25% to damage caused; the chance to get hit is halved 
+  (works exactly like the trait Dodging, but is not cumulative with this trait) 
+Swift Blade: (rapier) -2 to attack; if the character hits with his/her first attack,
+  a second attack is immediately started 
+  (works exactly like the trait Fast Attack, but is not cumulative with this trait) 
+Hidden Blade: (dagger) damage caused by the first attack against a monster is doubled 
+Sweeping Attack: (polearm) -2 to attack; all enemies near to the character are attacked at once
+  (works exactly like the trait Surround Attack, but is not cumulative with this trait) 
+
+
+Porque es imposible reobtener objetos robados?
+Remember this is an abstract roquelike.
+We know it would make sense to just kill the thief and then pickup the stolen items. 
+BUT it would make stealing pointless!
+The thieves are very weak and everybody can kill them!
+So it will NEVER be possible to get stolen items back!
+
+
+Se puede aprender nuavas abilidades en el juego?
+No its not! Thats one of the traditions of this game.
+The game is meant to last only very short not like other roquelikes,
+ where you play the same character forever.
+We want you to create a new character with different skills every time you play.
+So to see all the skills you have to try around with them.
+Thats all Lost Labyrinth is living from ... Combinations ...
+
+
+Para que sirven las partes del bastón?
+When you collect all 9 parts of the staff of the last covenant you finish the game alive!
+You can enter your name in the highscore as usual but get a sign that you survived!
+The other way to finish the game is by completing level 150.
+
+
+Compilar Lost Labyrinth 
+Lost Labyrinth is Open Source! 
+This means you can download the sourcecode, the graphics and the sounds 
+that we use to create the game.
+BUT you will not be able to compile it until you own the Purebasic Compiler!
+(Which you can get here: http://www.purebasic.com)
+And this is a commercial program. We are sorry for that!
+BUT if your idealism of only using selfcompiled code prevents you from playing the game,
+ its your fault not ours!
+On Linux and Open BSD, you can use Richard Braakman's converter elice.
+With it you can convert and compile it. You need Ruby,Racc,Gcc and some SDL libraries
+for that. Elice is available in the SVN repository.
+
+
+Reescibir Lost Labyrinth en otro lenguaje de programacion
+We (the programmers of this game) totally love purebasic!
+Its fast, easy and cheap! And we already bought it.
+And for us there is no reason to rewrite it in other languages!
+If you like to do that you are welcome. You can use everything the game uses,
+ we will answer all your questions to help you get started.
+BUT we will not invest another hundreds of hours to just write it without any visible effect!
+
+
+Cuales son las diferencias entre la verciona classica y la nueva?
+The classic version is developed since years and development is still going on.
+The programming is done by a friend of mine,
+ with whom I studied information technology some years ago.
+So why is there a need for a new version?
+The classic one is written in blitzbasic which is not developed anymore.
+And this compiler is only existing for windows.
+Purebasic, the language the new version is written in, is still developed,
+ and has a lot of nice features blitzbasic does not
+ (Like an integrated packer for the resources).
+We also can compile the game without changing one line of code 
+ for windows and linux and maybe soon even mac os.
+
+The game was programmed from scratch and did not use any code of the classic version.
+So there will always be differences! Some skills are named differently or work a bit differently.
+Both version have skills the other one does not have. (Or not have yet!)
+I invested a lot of time to produce good and readable code. So its really well structured!
+And its already totally modularized. So new functions can be integrated very easily,
+ which makes sure we can continue development for the years to come!
+Both versions follow the same traditions. So we use a lot of common elements but sometimes
+in slightly different ways.
+Advantages of the new version:
+
+All old labyrinth levels are saved so we can walk up the stairs 
+  (But we get the experience gain and the benefits from our skills only once!) 
+The players can be in different levels. 
+Summoned creatures act like players. 
+  Means they have a movement rating and can really accompany their caster.
+The inventory works "Diablo" like: We can rearrange our items with the mouse
+   and stack them into piles. We can also drag&drop them to the character skeleton to use them.
+We have a belt that works like a quickaccess inventory. We can move up to 10 items in there
+  and access them in the mainscreen by clicking on them or pressing F1-F10.
+The stairs can be in all 4 corners 
+
+
